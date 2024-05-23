@@ -60,7 +60,7 @@ Hosts are the main operation points of applications. Per the reference architect
   `Deppendency Injected via Hosts`
  
 ### Hosting ###
-For both**Hosts* and *Implementations* external components may be required. Examples of such components are:
+For both *Hosts* and *Implementations* external components may be required. Examples of such components are:
 
 * [StackExchange Redis](https://www.nuget.org/packages/StackExchange.Redis)
 * Kafka
