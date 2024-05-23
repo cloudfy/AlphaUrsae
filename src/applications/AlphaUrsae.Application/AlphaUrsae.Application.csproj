@@ -1,4 +1,9 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+  </PropertyGroup>
+  
   <ItemGroup>
     <ProjectReference Include="..\..\abstractions\AlphaUrsae.Abstractions\AlphaUrsae.Abstractions.csproj" />
   </ItemGroup>

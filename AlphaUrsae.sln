@@ -31,17 +31,21 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "implementations", "implemen
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Domain.Implementations", "src\implementations\AlphaUrsae.Domain.Implementations\AlphaUrsae.Domain.Implementations.csproj", "{50B99DCC-A127-4AA9-8ED2-679774D9C5E9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaUrsae.Hosting.EFCore.SqlServer", "src\hosting\AlphaUrsae.Hosting.EFCore.SqlServer\AlphaUrsae.Hosting.EFCore.SqlServer.csproj", "{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Hosting.EFCore.SqlServer", "src\hosting\AlphaUrsae.Hosting.EFCore.SqlServer\AlphaUrsae.Hosting.EFCore.SqlServer.csproj", "{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "applications", "applications", "{FAF14402-9A73-4CD7-8FE8-384A7A5CFE0A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaUrsae.Application", "src\applications\AlphaUrsae.Application\AlphaUrsae.Application.csproj", "{9FAB9742-1A83-4A4C-9FFA-00B1BF1F7EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Application", "src\applications\AlphaUrsae.Application\AlphaUrsae.Application.csproj", "{9FAB9742-1A83-4A4C-9FFA-00B1BF1F7EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaUrsae.Abstractions", "src\abstractions\AlphaUrsae.Abstractions\AlphaUrsae.Abstractions.csproj", "{CF3F3357-B7DB-45E8-A6A8-45B22E81E12C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Abstractions", "src\abstractions\AlphaUrsae.Abstractions\AlphaUrsae.Abstractions.csproj", "{CF3F3357-B7DB-45E8-A6A8-45B22E81E12C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "abstractions", "abstractions", "{C51F55B3-8EB3-4A53-85BF-8E8052053BA8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaUrsae.Implementations", "src\implementations\AlphaUrsae.Implementations\AlphaUrsae.Implementations.csproj", "{A2AC30D7-43FB-4672-BA35-6438277FA72D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Implementations", "src\implementations\AlphaUrsae.Implementations\AlphaUrsae.Implementations.csproj", "{A2AC30D7-43FB-4672-BA35-6438277FA72D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaUrsae.Extensions", "src\extensions\AlphaUrsae.Extensions\AlphaUrsae.Extensions.csproj", "{0120017F-68BA-4F0F-A204-7EC784822A7E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "extensions", "extensions", "{9B1B5AA7-35BF-45D9-B432-9EFA3C8E45DA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -97,6 +101,10 @@ Global
 		{A2AC30D7-43FB-4672-BA35-6438277FA72D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2AC30D7-43FB-4672-BA35-6438277FA72D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2AC30D7-43FB-4672-BA35-6438277FA72D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0120017F-68BA-4F0F-A204-7EC784822A7E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0120017F-68BA-4F0F-A204-7EC784822A7E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0120017F-68BA-4F0F-A204-7EC784822A7E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0120017F-68BA-4F0F-A204-7EC784822A7E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -121,6 +129,8 @@ Global
 		{CF3F3357-B7DB-45E8-A6A8-45B22E81E12C} = {C51F55B3-8EB3-4A53-85BF-8E8052053BA8}
 		{C51F55B3-8EB3-4A53-85BF-8E8052053BA8} = {29734867-A66D-4B81-B188-337E9AC54A43}
 		{A2AC30D7-43FB-4672-BA35-6438277FA72D} = {28366531-901F-4F51-83BA-D2A1FA234B75}
+		{0120017F-68BA-4F0F-A204-7EC784822A7E} = {9B1B5AA7-35BF-45D9-B432-9EFA3C8E45DA}
+		{9B1B5AA7-35BF-45D9-B432-9EFA3C8E45DA} = {29734867-A66D-4B81-B188-337E9AC54A43}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B2E4DD69-C5A2-4F0B-8F7B-4E15D2D25FEC}
