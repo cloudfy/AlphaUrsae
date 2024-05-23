@@ -1,0 +1,101 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{29734867-A66D-4B81-B188-337E9AC54A43}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hosts", "hosts", "{2A2E8719-24F6-4613-A9A6-44AF57BF76A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.ApiHost", "src\hosts\AlphaUrsae.ApiHost\AlphaUrsae.ApiHost.csproj", "{15768F64-765E-439A-8807-2453FCF28B1D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.ServiceDefaults", "src\hosts\AlphaUrsae.ServiceDefaults\AlphaUrsae.ServiceDefaults.csproj", "{FC54C61F-1450-4C34-84E1-B7B1F89151C2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.AppHost", "src\hosts\AlphaUrsae.AppHost\AlphaUrsae.AppHost.csproj", "{1BCABD87-3E8C-4F08-8B6F-5E3264F6837C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "hosting", "hosting", "{A0D10D87-74B4-4E7A-95A2-7F623671699B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Hosting.AppHost", "src\hosting\AlphaUrsae.Hosting.AppHost\AlphaUrsae.Hosting.AppHost.csproj", "{1F44E117-0A66-4AB5-B96D-952BF6F63248}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{C909B590-505B-4E2E-B912-18DD8F6076D5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "domain", "domain", "{81BCC832-DD26-43B5-9B23-655DA96468B2}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Domain", "src\core\domain\AlphaUrsae.Domain\AlphaUrsae.Domain.csproj", "{F1AA8186-D5AC-479E-AE7C-C0F9D9369271}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Hosting.OpenTelemetry", "src\hosting\AlphaUrsae.Hosting.OpenTelemetry\AlphaUrsae.Hosting.OpenTelemetry.csproj", "{310D2B41-81B7-48D8-B727-1B211451368E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Hosting.OpenTelemetry.AspNetCore", "src\hosting\AlphaUrsae.Hosting.OpenTelemetry.AspNetCore\AlphaUrsae.Hosting.OpenTelemetry.AspNetCore.csproj", "{64512626-1C20-4F70-B829-26C92FEF3696}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "implementations", "implementations", "{28366531-901F-4F51-83BA-D2A1FA234B75}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AlphaUrsae.Domain.Implementations", "src\implementations\AlphaUrsae.Domain.Implementations\AlphaUrsae.Domain.Implementations.csproj", "{50B99DCC-A127-4AA9-8ED2-679774D9C5E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlphaUrsae.Hosting.EFCore.SqlServer", "src\hosting\AlphaUrsae.Hosting.EFCore.SqlServer\AlphaUrsae.Hosting.EFCore.SqlServer.csproj", "{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{15768F64-765E-439A-8807-2453FCF28B1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15768F64-765E-439A-8807-2453FCF28B1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15768F64-765E-439A-8807-2453FCF28B1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15768F64-765E-439A-8807-2453FCF28B1D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC54C61F-1450-4C34-84E1-B7B1F89151C2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC54C61F-1450-4C34-84E1-B7B1F89151C2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC54C61F-1450-4C34-84E1-B7B1F89151C2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC54C61F-1450-4C34-84E1-B7B1F89151C2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BCABD87-3E8C-4F08-8B6F-5E3264F6837C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BCABD87-3E8C-4F08-8B6F-5E3264F6837C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BCABD87-3E8C-4F08-8B6F-5E3264F6837C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BCABD87-3E8C-4F08-8B6F-5E3264F6837C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F44E117-0A66-4AB5-B96D-952BF6F63248}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F44E117-0A66-4AB5-B96D-952BF6F63248}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F44E117-0A66-4AB5-B96D-952BF6F63248}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F44E117-0A66-4AB5-B96D-952BF6F63248}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F1AA8186-D5AC-479E-AE7C-C0F9D9369271}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F1AA8186-D5AC-479E-AE7C-C0F9D9369271}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F1AA8186-D5AC-479E-AE7C-C0F9D9369271}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F1AA8186-D5AC-479E-AE7C-C0F9D9369271}.Release|Any CPU.Build.0 = Release|Any CPU
+		{310D2B41-81B7-48D8-B727-1B211451368E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{310D2B41-81B7-48D8-B727-1B211451368E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{310D2B41-81B7-48D8-B727-1B211451368E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{310D2B41-81B7-48D8-B727-1B211451368E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64512626-1C20-4F70-B829-26C92FEF3696}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64512626-1C20-4F70-B829-26C92FEF3696}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64512626-1C20-4F70-B829-26C92FEF3696}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64512626-1C20-4F70-B829-26C92FEF3696}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50B99DCC-A127-4AA9-8ED2-679774D9C5E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50B99DCC-A127-4AA9-8ED2-679774D9C5E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50B99DCC-A127-4AA9-8ED2-679774D9C5E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50B99DCC-A127-4AA9-8ED2-679774D9C5E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A2E8719-24F6-4613-A9A6-44AF57BF76A3} = {29734867-A66D-4B81-B188-337E9AC54A43}
+		{15768F64-765E-439A-8807-2453FCF28B1D} = {2A2E8719-24F6-4613-A9A6-44AF57BF76A3}
+		{FC54C61F-1450-4C34-84E1-B7B1F89151C2} = {2A2E8719-24F6-4613-A9A6-44AF57BF76A3}
+		{1BCABD87-3E8C-4F08-8B6F-5E3264F6837C} = {2A2E8719-24F6-4613-A9A6-44AF57BF76A3}
+		{A0D10D87-74B4-4E7A-95A2-7F623671699B} = {29734867-A66D-4B81-B188-337E9AC54A43}
+		{1F44E117-0A66-4AB5-B96D-952BF6F63248} = {A0D10D87-74B4-4E7A-95A2-7F623671699B}
+		{C909B590-505B-4E2E-B912-18DD8F6076D5} = {29734867-A66D-4B81-B188-337E9AC54A43}
+		{81BCC832-DD26-43B5-9B23-655DA96468B2} = {C909B590-505B-4E2E-B912-18DD8F6076D5}
+		{F1AA8186-D5AC-479E-AE7C-C0F9D9369271} = {81BCC832-DD26-43B5-9B23-655DA96468B2}
+		{310D2B41-81B7-48D8-B727-1B211451368E} = {A0D10D87-74B4-4E7A-95A2-7F623671699B}
+		{64512626-1C20-4F70-B829-26C92FEF3696} = {A0D10D87-74B4-4E7A-95A2-7F623671699B}
+		{28366531-901F-4F51-83BA-D2A1FA234B75} = {29734867-A66D-4B81-B188-337E9AC54A43}
+		{50B99DCC-A127-4AA9-8ED2-679774D9C5E9} = {28366531-901F-4F51-83BA-D2A1FA234B75}
+		{38D5A287-0504-4FFB-8D1E-8A4A1CAF1496} = {A0D10D87-74B4-4E7A-95A2-7F623671699B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B2E4DD69-C5A2-4F0B-8F7B-4E15D2D25FEC}
+	EndGlobalSection
+EndGlobal

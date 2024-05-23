@@ -1,0 +1,13 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\hosting\AlphaUrsae.Hosting.AppHost\AlphaUrsae.Hosting.AppHost.csproj" />
+    <ProjectReference Include="..\..\hosting\AlphaUrsae.Hosting.OpenTelemetry\AlphaUrsae.Hosting.OpenTelemetry.csproj" />
+    <ProjectReference Include="..\AlphaUrsae.ServiceDefaults\AlphaUrsae.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

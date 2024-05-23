@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <RootNamespace>AlphaUrsae.Domain</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\core\domain\AlphaUrsae.Domain\AlphaUrsae.Domain.csproj" />
+    <ProjectReference Include="..\..\hosting\AlphaUrsae.Hosting.EFCore.SqlServer\AlphaUrsae.Hosting.EFCore.SqlServer.csproj" />
+  </ItemGroup>
+
+</Project>

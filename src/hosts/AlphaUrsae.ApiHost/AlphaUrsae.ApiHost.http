@@ -1,0 +1,6 @@
+@AlphaUrsae.ApiHost_HostAddress = http://localhost:5072
+
+GET {{AlphaUrsae.ApiHost_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.5" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\hosting\AlphaUrsae.Hosting.OpenTelemetry.AspNetCore\AlphaUrsae.Hosting.OpenTelemetry.AspNetCore.csproj" />
+    <ProjectReference Include="..\AlphaUrsae.ServiceDefaults\AlphaUrsae.ServiceDefaults.csproj" />
+  </ItemGroup>
+
+</Project>

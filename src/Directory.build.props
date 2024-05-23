@@ -1,0 +1,14 @@
+<Project>
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+         <!-- Add your project-specific properties here -->
+         
+    </PropertyGroup>
+
+    <ItemGroup>
+        <!-- Add your project-specific item groups here -->
+    </ItemGroup>
+
+</Project>
